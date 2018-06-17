@@ -1,6 +1,6 @@
-package linkedListProblem;
+package dataStructureImpl;
 
-public class LinkedListImplementation<T> {
+public class SinglyLinkedList<T> {
 	private Node<T> head;
 	private Node<T> tail;
 	private int count;
