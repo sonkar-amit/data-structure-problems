@@ -1,7 +1,7 @@
 package data_structure_problems.solution;
 
 /**
- * Hello world!
+ * Hello world testing!
  *
  */
 public class App 
