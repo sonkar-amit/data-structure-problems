@@ -1,4 +1,4 @@
-package dataStructureImpl;
+package dataStructureImplementation;
 
 public class SinglyLinkedList<T> {
 	private Node<T> head;
@@ -8,6 +8,14 @@ public class SinglyLinkedList<T> {
 	public int getCount() {
 		return count;
 	}
+	
+	public void setCount(int count) {
+		this.count = count;
+	}
+	
+	public void setHead(Node<T> head) {
+		this.head = head;
+	}
 
 	public Node<T> getHead() {
 		return head;
@@ -15,6 +23,10 @@ public class SinglyLinkedList<T> {
 
 	public Node<T> getTail() {
 		return tail;
+	}
+	
+	public void setTail(Node<T> tail) {
+		this.tail = tail;
 	}
 	
 	public boolean addFirst(T value) {

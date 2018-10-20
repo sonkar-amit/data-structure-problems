@@ -1,4 +1,4 @@
-package dataStructureImpl;
+package dataStructureImplementation;
 
 public class Node<T> {
 	private T value;
